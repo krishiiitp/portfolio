@@ -118,7 +118,7 @@ const nav = document.querySelector(".nav"),
         }
         document.getElementById('downloadButton').addEventListener('click', function() {
             var link = document.createElement('a');
-            link.href = 'C:/Users/New/Desktop/Portfolio-main/Krish_Thakrar_Resume.pdf'; // Path to your file
+            link.href = 'https://github.com/krishiiitp/portfolio/raw/master/Krish_Thakrar_Resume.pdf'; // Path to your file
             link.download = 'Krish_Thakrar_Resume.pdf'; // Desired file name
             link.target = '_blank'
             document.body.appendChild(link);
